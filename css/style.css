@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+.container {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: normal;
+    color: white;
+    position: absolute;
+    width: 60%;
+    height: 80%;
+    left: 20%;
+    top: 10%;
+    gap: 1%;
+    text-align: center;
+    border-radius: 1rem;
+    background: rgb(4, 1, 47);
+    background: linear-gradient(90deg, rgb(13, 10, 54) 0%, rgba(26, 109, 106, 0.952) 49%, rgb(0, 84, 100) 100%);
+    filter: drop-shadow(0 0 30px black);
+}
+
+#table__Contenido {
+    width: 85%;
+    box-shadow: inset 0px 0px 30px black;
+    margin-left: 8%;
+    border-radius: 1rem;
+    padding: 3%;
+
+}
+
+#table__Contenido>thead{
+    background-color: rgba(0, 0, 0, 0.685);
+    gap: 1rem;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+th{
+    padding: 0.3rem;
+    border-radius: 0.6rem;
+    
+}
+
+td{
+    background-color: rgba(0, 0, 0, 0.349);
+    border-radius: 0.3rem;
+}
+
+#CrudMoviles{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+h4{
+    margin-bottom: 0.5rem;
+}
+
+input{
+    text-align: center;
+    padding: 0.3rem;
+    border-radius: 0.4rem;
+    border: none;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.521);
+    transition: all 0.5s;
+}
+
+input:hover{
+    transform: scale(1.1);
+}
+
+button{
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.568);
+    padding: 0.5rem;
+    margin: 1rem;
+    border-radius: 0.5rem;
+    transition: all 0.5s;
+}
+
+button:hover{
+    transform: scale(1.2);
+}

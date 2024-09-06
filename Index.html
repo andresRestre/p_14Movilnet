@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movilnet</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+</head>
+
+<body onload="obtenerInformacion()">
+    <div class="container">
+        <h1>MovilNet</h1>
+        <table id="table__Contenido">
+            <thead>
+                <th id="celda1">ID</th>
+                <th id="celda2">Nombre</th>
+                <th id="celda3">Modelo</th>
+                <th id="celda4">Color</th>
+                <th id="celda5">Almacenamiento</th>
+                <th id="celda6">Procesador</th>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+
+        <div id="CrudMoviles">
+
+            <div>
+                <h4>Ingrese el numero del dispositivo</h4>
+                <input type="number" placeholder="Ingresa aqui los datos" id="CrudMoviles__input">
+
+                <h4>Ingrese la marca del dispositivo</h4>
+                <input type="text" placeholder="Ingresa aqui los datos" id="marcaMoviles__input">
+
+                <h4>Ingrese el modelo del dispositivo</h4>
+                <input type="text" placeholder="Ingresa aqui los datos" id="modeloMoviles__input">
+
+                <h4>Ingrese el color del dispositivo</h4>
+                <input type="text" placeholder="Ingresa aqui los datos" id="colorMoviles__input">
+
+                <h4>Ingrese el almacenamiento del dispositivo</h4>
+                <input type="text" placeholder="Ingresa aqui los datos" id="almacenamientoMoviles__input">
+
+                <h4>Ingrese el procesador del dispositivo</h4>
+                <input type="text" placeholder="Ingresa aqui los datos" id="procesadorMoviles__input">
+
+
+            </div>
+
+            <div>
+
+                <button onclick="eliminar()">Eliminar</button>
+                <button onclick="cambiar()">Cambiar datos</button>
+
+            </div>
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
